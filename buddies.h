@@ -11,7 +11,6 @@
 #include <QtSql>
 #include <QStatusBar>
 
-
 class QAction;
 class QCheckBox;
 class QComboBox;

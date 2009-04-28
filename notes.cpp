@@ -16,6 +16,7 @@
 
 
 
+
 Notes::Notes(QWidget *parent)
     : QDialog(parent)
 {

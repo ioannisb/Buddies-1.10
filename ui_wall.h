@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'wall.ui'
 **
-** Created: Mon Apr 27 12:46:45 2009
+** Created: Tue Apr 28 11:17:41 2009
 **      by: Qt User Interface Compiler version 4.4.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
