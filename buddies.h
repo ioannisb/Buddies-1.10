@@ -58,7 +58,7 @@ public slots:
 	void Information();
 	void dbstatus();
 	void openNotes();
-
+	void startSSL();
 
 protected:
      void closeEvent(QCloseEvent *event);

@@ -21,5 +21,6 @@
     <file>images/Man.png</file>
     <file>images/Usergroup.png</file>
     <file>images/Keys.png</file>
+    <file>images/Lock.png</file>
  </qresource>
  </RCC>

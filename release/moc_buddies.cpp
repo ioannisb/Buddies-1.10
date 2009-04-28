@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'buddies.h'
 **
-** Created: Tue Apr 28 11:33:13 2009
+** Created: Tue Apr 28 12:31:28 2009
 **      by: The Qt Meta Object Compiler version 59 (Qt 4.4.0)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_Buddies[] = {
        1,       // revision
        0,       // classname
        0,    0, // classinfo
-      21,   10, // methods
+      22,   10, // methods
        0,    0, // properties
        0,    0, // enums/sets
 
@@ -45,10 +45,11 @@ static const uint qt_meta_data_Buddies[] = {
      216,    8,    8,    8, 0x0a,
      230,    8,    8,    8, 0x0a,
      241,    8,    8,    8, 0x0a,
-     259,  253,    8,    8, 0x08,
-     279,  272,    8,    8, 0x08,
-     328,    8,    8,    8, 0x08,
-     345,    8,    8,    8, 0x08,
+     253,    8,    8,    8, 0x0a,
+     270,  264,    8,    8, 0x08,
+     290,  283,    8,    8, 0x08,
+     339,    8,    8,    8, 0x08,
+     356,    8,    8,    8, 0x08,
 
        0        // eod
 };
@@ -60,8 +61,9 @@ static const char qt_meta_stringdata_Buddies[] = {
     "myexit()\0focusTabEdit()\0structUser()\0"
     "startChat()\0helpAbout()\0getSysInfo()\0"
     "onlineNotify()\0WriteOnWall()\0Information()\0"
-    "dbstatus()\0openNotes()\0index\0setIcon(int)\0"
-    "reason\0iconActivated(QSystemTrayIcon::ActivationReason)\0"
+    "dbstatus()\0openNotes()\0startSSL()\0"
+    "index\0setIcon(int)\0reason\0"
+    "iconActivated(QSystemTrayIcon::ActivationReason)\0"
     "messageClicked()\0showMessage()\0"
 };
 
@@ -107,12 +109,13 @@ int Buddies::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         case 14: Information(); break;
         case 15: dbstatus(); break;
         case 16: openNotes(); break;
-        case 17: setIcon((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 18: iconActivated((*reinterpret_cast< QSystemTrayIcon::ActivationReason(*)>(_a[1]))); break;
-        case 19: messageClicked(); break;
-        case 20: showMessage(); break;
+        case 17: startSSL(); break;
+        case 18: setIcon((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 19: iconActivated((*reinterpret_cast< QSystemTrayIcon::ActivationReason(*)>(_a[1]))); break;
+        case 20: messageClicked(); break;
+        case 21: showMessage(); break;
         }
-        _id -= 21;
+        _id -= 22;
     }
     return _id;
 }

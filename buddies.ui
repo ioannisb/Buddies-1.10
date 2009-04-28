@@ -323,6 +323,8 @@
    <addaction name="actionBoard"/>
    <addaction name="separator"/>
    <addaction name="actionNotes"/>
+   <addaction name="separator"/>
+   <addaction name="actionSslchat"/>
   </widget>
   <action name="action_Credits">
    <property name="icon">
@@ -403,6 +405,18 @@
    </property>
    <property name="toolTip">
     <string>Notes</string>
+   </property>
+  </action>
+  <action name="actionSslchat">
+   <property name="icon">
+    <iconset resource="Buddies.qrc">
+     <normaloff>:/images/Lock.png</normaloff>:/images/Lock.png</iconset>
+   </property>
+   <property name="text">
+    <string>sslchat</string>
+   </property>
+   <property name="toolTip">
+    <string>SSL Chat</string>
    </property>
   </action>
  </widget>
@@ -586,6 +600,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>actionSslchat</sender>
+   <signal>activated()</signal>
+   <receiver>BuddiesClass</receiver>
+   <slot>startSSL()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>267</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>loginUser()</slot>
@@ -597,5 +627,6 @@
   <slot>WriteOnWall()</slot>
   <slot>Information()</slot>
   <slot>openNotes()</slot>
+  <slot>startSSL()</slot>
  </slots>
 </ui>

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'buddies.ui'
 **
-** Created: Tue Apr 28 11:17:41 2009
+** Created: Tue Apr 28 12:27:10 2009
 **      by: Qt User Interface Compiler version 4.4.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
@@ -44,6 +44,7 @@ public:
     QAction *action_Configure;
     QAction *actionBoard;
     QAction *actionNotes;
+    QAction *actionSslchat;
     QWidget *centralwidget;
     QGridLayout *gridLayout;
     QTabWidget *tabWidget;
@@ -131,6 +132,11 @@ public:
     QIcon icon6;
     icon6.addPixmap(QPixmap(QString::fromUtf8(":/images/Pin.png")), QIcon::Normal, QIcon::Off);
     actionNotes->setIcon(icon6);
+    actionSslchat = new QAction(BuddiesClass);
+    actionSslchat->setObjectName(QString::fromUtf8("actionSslchat"));
+    QIcon icon7;
+    icon7.addPixmap(QPixmap(QString::fromUtf8(":/images/Lock.png")), QIcon::Normal, QIcon::Off);
+    actionSslchat->setIcon(icon7);
     centralwidget = new QWidget(BuddiesClass);
     centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
     gridLayout = new QGridLayout(centralwidget);
@@ -196,9 +202,9 @@ public:
 
     gridLayout_4->addWidget(groupBox, 1, 0, 1, 1);
 
-    QIcon icon7;
-    icon7.addPixmap(QPixmap(QString::fromUtf8(":/images/Usergroup.png")), QIcon::Normal, QIcon::Off);
-    tabWidget->addTab(tab_3, icon7, QString());
+    QIcon icon8;
+    icon8.addPixmap(QPixmap(QString::fromUtf8(":/images/Usergroup.png")), QIcon::Normal, QIcon::Off);
+    tabWidget->addTab(tab_3, icon8, QString());
     tab_5 = new QWidget();
     tab_5->setObjectName(QString::fromUtf8("tab_5"));
     gridLayout_2 = new QGridLayout(tab_5);
@@ -209,9 +215,9 @@ public:
 
     gridLayout_2->addWidget(listWidget, 0, 0, 1, 1);
 
-    QIcon icon8;
-    icon8.addPixmap(QPixmap(QString::fromUtf8(":/images/Man.png")), QIcon::Normal, QIcon::Off);
-    tabWidget->addTab(tab_5, icon8, QString());
+    QIcon icon9;
+    icon9.addPixmap(QPixmap(QString::fromUtf8(":/images/Man.png")), QIcon::Normal, QIcon::Off);
+    tabWidget->addTab(tab_5, icon9, QString());
     tab_4 = new QWidget();
     tab_4->setObjectName(QString::fromUtf8("tab_4"));
     gridLayout_6 = new QGridLayout(tab_4);
@@ -338,6 +344,8 @@ public:
     toolBar->addAction(actionBoard);
     toolBar->addSeparator();
     toolBar->addAction(actionNotes);
+    toolBar->addSeparator();
+    toolBar->addAction(actionSslchat);
 
     retranslateUi(BuddiesClass);
     QObject::connect(commandLinkButton, SIGNAL(clicked()), BuddiesClass, SLOT(loginUser()));
@@ -351,6 +359,7 @@ public:
     QObject::connect(listWidget, SIGNAL(itemDoubleClicked(QListWidgetItem*)), BuddiesClass, SLOT(startChat()));
     QObject::connect(actionBoard, SIGNAL(activated()), BuddiesClass, SLOT(WriteOnWall()));
     QObject::connect(actionNotes, SIGNAL(activated()), BuddiesClass, SLOT(openNotes()));
+    QObject::connect(actionSslchat, SIGNAL(activated()), BuddiesClass, SLOT(startSSL()));
 
     tabWidget->setCurrentIndex(0);
 
@@ -382,6 +391,12 @@ public:
 
 #ifndef QT_NO_TOOLTIP
     actionNotes->setToolTip(QApplication::translate("BuddiesClass", "Notes", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+
+    actionSslchat->setText(QApplication::translate("BuddiesClass", "sslchat", 0, QApplication::UnicodeUTF8));
+
+#ifndef QT_NO_TOOLTIP
+    actionSslchat->setToolTip(QApplication::translate("BuddiesClass", "SSL Chat", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
 
     label_2->setText(QString());
