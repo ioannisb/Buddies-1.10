@@ -1,0 +1,62 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource> 
+      <file>icons/qSslChat256.png</file>
+      <file>icons/qSslChat128.png</file>
+      <file>icons/qSslChat64.png</file>
+      <file>icons/qSslChat48.png</file>
+      <file>icons/encrypted.png</file>
+      <file>icons/Logo.png</file>
+    <file>sounds/buzz.wav</file>
+    <file>emoticons/01.gif</file>
+    <file>emoticons/02.gif</file>
+    <file>emoticons/03.gif</file>
+    <file>emoticons/04.gif</file>
+    <file>emoticons/05.gif</file>
+    <file>emoticons/06.gif</file>
+    <file>emoticons/07.gif</file>
+    <file>emoticons/08.gif</file>
+    <file>emoticons/09.gif</file>
+    <file>emoticons/10.gif</file>
+    <file>emoticons/100.gif</file>
+    <file>emoticons/102.gif</file>
+    <file>emoticons/103.gif</file>
+    <file>emoticons/104.gif</file>
+    <file>emoticons/106.gif</file>
+    <file>emoticons/11.gif</file>
+    <file>emoticons/12.gif</file>
+    <file>emoticons/14.gif</file>
+    <file>emoticons/15.gif</file>
+    <file>emoticons/17.gif</file>
+    <file>emoticons/19.gif</file>
+    <file>emoticons/20.gif</file>
+    <file>emoticons/21.gif</file>
+    <file>emoticons/22.gif</file>
+    <file>emoticons/23.gif</file>
+    <file>emoticons/24.gif</file>
+    <file>emoticons/26.gif</file>
+    <file>emoticons/27.gif</file>
+    <file>emoticons/30.gif</file>
+    <file>emoticons/31.gif</file>
+    <file>emoticons/32.gif</file>
+    <file>emoticons/33.gif</file>
+    <file>emoticons/36.gif</file>
+    <file>emoticons/37.gif</file>
+    <file>emoticons/39.gif</file>
+    <file>emoticons/42.gif</file>
+    <file>emoticons/43.gif</file>
+    <file>emoticons/45.gif</file>
+    <file>emoticons/47.gif</file>
+    <file>emoticons/59.gif</file>
+    <file>emoticons/61.gif</file>
+    <file>emoticons/63.gif</file>
+    <file>emoticons/66.gif</file>
+    <file>emoticons/67.gif</file>
+    <file>emoticons/70.gif</file>
+    <file>emoticons/71.gif</file>
+   
+    <file>emoticons/76.gif</file>
+    <file>emoticons/77.gif</file>
+    <file>emoticons/78.gif</file>
+
+</qresource>
+</RCC>

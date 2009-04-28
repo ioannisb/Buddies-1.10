@@ -1,0 +1,25 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource prefix="/">
+    <file>images/Online.png</file>
+    <file>images/Offline.png</file>
+    <file>images/Invisible.png</file>
+    <file>images/Logo.png</file>
+    <file>images/Exit.png</file>
+    <file>images/Key.png</file>
+    <file>images/Tab.png</file>
+    <file>images/Welcome.png</file>
+    <file>images/Chat.png</file>
+    <file>images/Bubbles.png</file>
+    <file>images/Error.png</file>
+    <file>images/Ok.png</file>
+    <file>images/Options.png</file>
+    <file>images/Disconnect.png</file>
+    <file>images/DBok.png</file>
+    <file>images/DBerr.png</file>
+    <file>images/Pin.png</file>
+    <file>images/Calendar.png</file>
+    <file>images/Man.png</file>
+    <file>images/Usergroup.png</file>
+    <file>images/Keys.png</file>
+ </qresource>
+ </RCC>
