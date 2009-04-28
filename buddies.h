@@ -12,6 +12,8 @@
 #include <QStatusBar>
 
 
+//--Buddies Class
+
 class QAction;
 class QCheckBox;
 class QComboBox;
